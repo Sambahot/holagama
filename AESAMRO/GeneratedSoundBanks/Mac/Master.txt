@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1384911199	Play_Modificador			\Default Work Unit\Play_Modificador	
+	2922198603	Play_Timings			\Default Work Unit\Play_Timings	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	710929354	Timings			\Default Work Unit\Timings	
+
+Switch	ID	Name	Switch Group			Notes
+	384398350	Missed	Timings			
+	668632890	Good	Timings			
+	1668749454	NM	Timings			
+	2161557176	Perfect	Timings			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	18032990	GOOD	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GAME_REACTION2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\GOOD		79712
+	28967511	PERFECT	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GAME_REACTION1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\PERFECT		80736
+	181184555	NM	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GAME_REACTION4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\NM		116064
+	695251641	MISSED	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GAME_REACTION3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\MISSED		80736
+

@@ -1,6 +1,302 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D0735217-E007-46F0-BD0C-4A81B1AD09A6}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{D0735217-E007-46F0-BD0C-4A81B1AD09A6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D0735217-E007-46F0-BD0C-4A81B1AD09A6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Timings" ID="{37526614-D211-4BD0-BDC2-096B3DF7C014}" ShortID="952568191">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Timings" ID="{FBB40AC5-38F4-4F4B-8E81-3C9494655FF2}" WorkUnitID="{15938669-7928-4036-85EC-872D08DBEABD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PERFECT" ID="{42240239-F7D0-4EAB-879C-809AFD1627C5}" ShortID="739677655">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GAME_REACTION1" ID="{A45896A6-493C-4236-A4FA-9CBF432E4AE6}">
+									<Language>SFX</Language>
+									<AudioFile>GAME_REACTION1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="28967511"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GAME_REACTION1" ID="{A45896A6-493C-4236-A4FA-9CBF432E4AE6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="GOOD" ID="{6D5F306D-EAA3-4AE8-9A70-AF27A464DB33}" ShortID="20355346">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GAME_REACTION2" ID="{28B45679-1980-4465-BC42-97EBD3261383}">
+									<Language>SFX</Language>
+									<AudioFile>GAME_REACTION2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="18032990"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GAME_REACTION2" ID="{28B45679-1980-4465-BC42-97EBD3261383}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MISSED" ID="{143C1E17-1756-41C5-A345-DC3C0B37E106}" ShortID="78094993">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GAME_REACTION3" ID="{2BE76C7A-F2DA-4636-8843-08C8E1B77F03}">
+									<Language>SFX</Language>
+									<AudioFile>GAME_REACTION3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="695251641"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GAME_REACTION3" ID="{2BE76C7A-F2DA-4636-8843-08C8E1B77F03}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="NM" ID="{DC151711-B107-4808-BE99-198A70D58635}" ShortID="963944001">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GAME_REACTION4" ID="{55CDBCB6-A178-4C42-B5A4-1DC9A388B16B}">
+									<Language>SFX</Language>
+									<AudioFile>GAME_REACTION4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="181184555"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GAME_REACTION4" ID="{55CDBCB6-A178-4C42-B5A4-1DC9A388B16B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="NM" ID="{DC151711-B107-4808-BE99-198A70D58635}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="MISSED" ID="{143C1E17-1756-41C5-A345-DC3C0B37E106}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="PERFECT" ID="{42240239-F7D0-4EAB-879C-809AFD1627C5}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="GOOD" ID="{6D5F306D-EAA3-4AE8-9A70-AF27A464DB33}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Good" ID="{6044DD09-4E23-4717-AE4E-3C48AB4AD50B}"/>
+								<ItemList>
+									<ItemRef Name="GOOD" ID="{6D5F306D-EAA3-4AE8-9A70-AF27A464DB33}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Missed" ID="{94812021-0DDC-41B3-A6D6-858EC848695D}"/>
+								<ItemList>
+									<ItemRef Name="MISSED" ID="{143C1E17-1756-41C5-A345-DC3C0B37E106}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Perfect" ID="{0F2CF1DC-2F38-4F50-AACA-EA01B081B2DA}"/>
+								<ItemList>
+									<ItemRef Name="PERFECT" ID="{42240239-F7D0-4EAB-879C-809AFD1627C5}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="NM" ID="{3D602FF1-0AA2-413F-AB50-04BB23F06153}"/>
+								<ItemList>
+									<ItemRef Name="NM" ID="{DC151711-B107-4808-BE99-198A70D58635}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Modificadores" ID="{52E88B30-EAD1-4904-8BED-069381850200}" ShortID="1035331301">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Normal" ID="{5804B5CE-1BE4-4B5B-90B7-EF9C71064A21}" WorkUnitID="{15938669-7928-4036-85EC-872D08DBEABD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Modificadores" ID="{AA907EF3-A7B4-4B1D-9BAF-0104DC853CE0}" WorkUnitID="{15938669-7928-4036-85EC-872D08DBEABD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="x2" ID="{D03D7FA2-843C-49BA-90CA-291EB77B0C05}" ShortID="755122518">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GAME_REACTION5" ID="{5781C359-8DE2-48E4-B51C-50C787E19DB5}">
+									<Language>SFX</Language>
+									<AudioFile>GAME_REACTION5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="697101390"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GAME_REACTION5" ID="{5781C359-8DE2-48E4-B51C-50C787E19DB5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="x3" ID="{88D998AC-ACA6-465C-9182-38D282EE3105}" ShortID="92892843">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GAME_REACTION6" ID="{626DEB9F-4ADF-49FC-8473-2697A2C02D30}">
+									<Language>SFX</Language>
+									<AudioFile>GAME_REACTION6.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="534005022"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GAME_REACTION6" ID="{626DEB9F-4ADF-49FC-8473-2697A2C02D30}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="x4" ID="{97661FD0-7309-4D64-81CB-0CBEB6EDD2EA}" ShortID="981178527">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GAME_REACTION7" ID="{3AE46B01-A62C-4DB6-8462-79ACE9F5E748}">
+									<Language>SFX</Language>
+									<AudioFile>GAME_REACTION7.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="668686213"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GAME_REACTION7" ID="{3AE46B01-A62C-4DB6-8462-79ACE9F5E748}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="x5" ID="{4E3BF658-9482-4C43-810D-AEB2416F7560}" ShortID="457435920">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{236F8CD9-8184-4F5A-908B-D5FCD51B6677}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C8E3C58A-C604-4822-9EE9-332DB59D0513}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="GAME_REACTION8" ID="{F4191684-65D1-453F-B738-A79FBC071DF7}">
+									<Language>SFX</Language>
+									<AudioFile>GAME_REACTION8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="973290105"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="GAME_REACTION8" ID="{F4191684-65D1-453F-B738-A79FBC071DF7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="x5" ID="{4E3BF658-9482-4C43-810D-AEB2416F7560}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="x2" ID="{D03D7FA2-843C-49BA-90CA-291EB77B0C05}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="x3" ID="{88D998AC-ACA6-465C-9182-38D282EE3105}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="x4" ID="{97661FD0-7309-4D64-81CB-0CBEB6EDD2EA}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="x2" ID="{07954E47-0093-4C53-8ACB-38CF62D50AED}"/>
+								<ItemList>
+									<ItemRef Name="x2" ID="{D03D7FA2-843C-49BA-90CA-291EB77B0C05}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="x3" ID="{52642D4F-A7DC-4472-9BAA-19C630D382F8}"/>
+								<ItemList>
+									<ItemRef Name="x3" ID="{88D998AC-ACA6-465C-9182-38D282EE3105}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="x5" ID="{9DDCAB7E-1005-49A7-AECE-5266E6D92E72}"/>
+								<ItemList>
+									<ItemRef Name="x5" ID="{4E3BF658-9482-4C43-810D-AEB2416F7560}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="x4" ID="{12A4C085-54D7-4918-AE96-44AEE81A588C}"/>
+								<ItemList>
+									<ItemRef Name="x4" ID="{97661FD0-7309-4D64-81CB-0CBEB6EDD2EA}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

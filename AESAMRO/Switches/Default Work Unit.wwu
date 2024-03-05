@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{15938669-7928-4036-85EC-872D08DBEABD}" SchemaVersion="119">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{15938669-7928-4036-85EC-872D08DBEABD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{15938669-7928-4036-85EC-872D08DBEABD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Timings" ID="{FBB40AC5-38F4-4F4B-8E81-3C9494655FF2}">
+					<ChildrenList>
+						<Switch Name="Perfect" ID="{0F2CF1DC-2F38-4F50-AACA-EA01B081B2DA}"/>
+						<Switch Name="Good" ID="{6044DD09-4E23-4717-AE4E-3C48AB4AD50B}"/>
+						<Switch Name="NM" ID="{3D602FF1-0AA2-413F-AB50-04BB23F06153}"/>
+						<Switch Name="Missed" ID="{94812021-0DDC-41B3-A6D6-858EC848695D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Modificadores" ID="{AA907EF3-A7B4-4B1D-9BAF-0104DC853CE0}">
+					<ChildrenList>
+						<Switch Name="x2" ID="{07954E47-0093-4C53-8ACB-38CF62D50AED}"/>
+						<Switch Name="x3" ID="{52642D4F-A7DC-4472-9BAA-19C630D382F8}"/>
+						<Switch Name="x4" ID="{12A4C085-54D7-4918-AE96-44AEE81A588C}"/>
+						<Switch Name="x5" ID="{9DDCAB7E-1005-49A7-AECE-5266E6D92E72}"/>
+						<Switch Name="Normal" ID="{5804B5CE-1BE4-4B5B-90B7-EF9C71064A21}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
