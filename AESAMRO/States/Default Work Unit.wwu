@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FF1FF41A-3561-4FFE-B0B3-018FF582F0DD}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{FF1FF41A-3561-4FFE-B0B3-018FF582F0DD}" PersistMode="Standalone">
-			<ChildrenList>
-				<StateGroup Name="PUBLIC" ID="{6187456F-57E5-4010-B62A-FF032A647EFA}">
-					<ChildrenList>
-						<State Name="None" ID="{B3C9B3F3-6C5C-45ED-A0BB-ADED6DBC1D50}"/>
-						<State Name="NEUTRAL" ID="{E8C20F2B-DA12-41D9-AD7A-0E39B3EA18AC}"/>
-						<State Name="HAPPY" ID="{2A95D184-836D-4FA2-900E-F6C31E6D4AF5}"/>
-						<State Name="SAD" ID="{0E8B4BE8-333D-4C5E-83BE-FDE1CCC4EC49}"/>
-					</ChildrenList>
-				</StateGroup>
-				<StateGroup Name="MENUMUS" ID="{2EDF93D2-1A63-4D77-9088-F158CF7CF0C8}">
-					<ChildrenList>
-						<State Name="None" ID="{045A8B71-3EF4-4CC8-BA32-99FB3019B437}"/>
-						<State Name="MENUA" ID="{600598A4-5709-4F75-A1F9-118BEEA042DD}"/>
-						<State Name="MENUB" ID="{F9BCF1B7-2957-493D-82D6-B01D2D041C89}"/>
-						<State Name="MENUEXIT" ID="{2D98AECB-61FD-47A6-93A3-801B7A8DB147}"/>
-					</ChildrenList>
-				</StateGroup>
-			</ChildrenList>
-		</WorkUnit>
+		<WorkUnit Name="Default Work Unit" ID="{FF1FF41A-3561-4FFE-B0B3-018FF582F0DD}" PersistMode="Standalone"/>
 	</States>
 </WwiseDocument>

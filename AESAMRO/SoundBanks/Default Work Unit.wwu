@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3126499E-FCE4-412B-8ADC-B176C372850E}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{3126499E-FCE4-412B-8ADC-B176C372850E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3126499E-FCE4-412B-8ADC-B176C372850E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Master" ID="{C3A9DA7C-BEFA-4AF3-8510-0DD10C7F3F2D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Timings" ID="{5D0D326C-7E3C-430A-AAEF-4B8575624DB5}" WorkUnitID="{ADC28592-D190-4B5F-B6A0-BBB6CA8E657D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Missed_Notes" ID="{4ECCCD8E-CB1F-45F4-B8A6-35A3836370F5}" WorkUnitID="{ADC28592-D190-4B5F-B6A0-BBB6CA8E657D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Juan_Reaction" ID="{E4823E87-A9B4-4B73-B2EF-CE05D3E56356}" WorkUnitID="{ADC28592-D190-4B5F-B6A0-BBB6CA8E657D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Modificador" ID="{DB9D4EE8-C5BF-4C00-A500-97204EAB87A8}" WorkUnitID="{ADC28592-D190-4B5F-B6A0-BBB6CA8E657D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -1,0 +1,37 @@
+Event	ID	Name			Wwise Object Path	Notes
+	482249566	Play_Juan_Reaction			\Default Work Unit\Play_Juan_Reaction	
+	1384911199	Play_Modificador			\Default Work Unit\Play_Modificador	
+	2630541559	Play_Missed_Notes			\Default Work Unit\Play_Missed_Notes	
+	2922198603	Play_Timings			\Default Work Unit\Play_Timings	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	219782030	Reacciones_Juan			\Default Work Unit\Reacciones_Juan	
+	710929354	Timings			\Default Work Unit\Timings	
+
+Switch	ID	Name	Switch Group			Notes
+	1206605712	Angry	Reacciones_Juan			
+	1427264549	Happy	Reacciones_Juan			
+	384398350	Missed	Timings			
+	668632890	Good	Timings			
+	1668749454	NM	Timings			
+	2161557176	Perfect	Timings			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	667616	feliz	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\HAPPY_JUAN1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reacciones Juan\Feliz\feliz		107104
+	18032990	GOOD	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GAME_REACTION2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\GOOD		79712
+	28967511	PERFECT	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GAME_REACTION1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\PERFECT		80736
+	76625353	enojao_02	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\ANGRY_JUAN2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reacciones Juan\Enojao\enojao_02		41170
+	103687311	MS_01	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GTR_MISS4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\MISSED\MS_01		52832
+	181184555	NM	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GAME_REACTION4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\NM		116064
+	332801725	feliz_01	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\HAPPY_JUAN2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reacciones Juan\Feliz\feliz_01		87136
+	524764293	MS	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GTR_MISS3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\MISSED\MS		39264
+	567236568	feliz_02	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\HAPPY_JUAN3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reacciones Juan\Feliz\feliz_02		105812
+	619541150	feliz_03	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\HAPPY_JUAN5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reacciones Juan\Feliz\feliz_03		82016
+	671867802	enojao	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\ANGRY_JUAN3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reacciones Juan\Enojao\enojao		41486
+	799872120	MSN_02	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GTR_MISS6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\MissedNotesReaction\MSN_02		59324
+	894193548	MS_03	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GTR_MISS7_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\MISSED\MS_03		60096
+	903853048	MS_02	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GTR_MISS5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Timings\MISSED\MS_02		23214
+	936220741	MSN	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GTR_MISS1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\MissedNotesReaction\MSN		41248
+	984385291	MSN_01	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\GTR_MISS2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\MissedNotesReaction\MSN_01		61536
+	1043347230	enojao_01	Y:\Desktop\Colaboracion\holagama\AESAMRO\.cache\Mac\SFX\ANGRY_JUAN1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Reacciones Juan\Enojao\enojao_01		40544
+

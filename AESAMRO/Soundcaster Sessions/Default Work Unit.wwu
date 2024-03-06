@@ -4,25 +4,8 @@
 		<WorkUnit Name="Default Work Unit" ID="{A9742BFD-9EAD-4EC4-8D38-AAD534EA7521}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="PRUBA PUEBLICO" ID="{DC308FD7-066C-4A9F-B269-D9DF8A53F8B2}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="crowd_neutral" ID="{69048D78-693B-4D35-8DAF-48A66317F320}" WorkUnitID="{AFC8DB4B-3CBA-4472-A767-C88F37DDCB9C}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="crowd_happy" ID="{263886C7-F113-4196-AC69-CE65EC96745A}" WorkUnitID="{AFC8DB4B-3CBA-4472-A767-C88F37DDCB9C}"/>
-							<Position X="1" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="crowd_sad" ID="{2E098E93-67CD-466F-B82C-652B3AA557F7}" WorkUnitID="{AFC8DB4B-3CBA-4472-A767-C88F37DDCB9C}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="NEUTRAL" ID="{E8C20F2B-DA12-41D9-AD7A-0E39B3EA18AC}"/>
-						<CurrentStateRef Name="MENUA" ID="{600598A4-5709-4F75-A1F9-118BEEA042DD}"/>
-					</CurrentStateList>
+					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

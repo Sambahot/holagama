@@ -3,7 +3,40 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{ADC28592-D190-4B5F-B6A0-BBB6CA8E657D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Menu_music" ID="{0AC08732-AAB0-4656-BC0E-A427133BA917}"/>
+				<Event Name="Play_Modificador" ID="{DB9D4EE8-C5BF-4C00-A500-97204EAB87A8}"/>
+				<Event Name="Play_Timings" ID="{5D0D326C-7E3C-430A-AAEF-4B8575624DB5}">
+					<ChildrenList>
+						<Action Name="" ID="{94252A44-9320-4413-AABD-02614933D4E7}" ShortID="945102900">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Timings" ID="{37526614-D211-4BD0-BDC2-096B3DF7C014}" WorkUnitID="{D0735217-E007-46F0-BD0C-4A81B1AD09A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Missed_Notes" ID="{4ECCCD8E-CB1F-45F4-B8A6-35A3836370F5}">
+					<ChildrenList>
+						<Action Name="" ID="{93B40959-DF87-487D-A0E3-A0FBD6114523}" ShortID="654929843">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MissedNotesReaction" ID="{78C8316F-91F3-4B87-BE43-43FAE2247EB4}" WorkUnitID="{D0735217-E007-46F0-BD0C-4A81B1AD09A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Juan_Reaction" ID="{E4823E87-A9B4-4B73-B2EF-CE05D3E56356}">
+					<ChildrenList>
+						<Action Name="" ID="{660BA428-B147-4992-8653-4FAE1AB2D040}" ShortID="675698596">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Reacciones Juan" ID="{00238444-70A3-4C32-A13A-6048FB37EC47}" WorkUnitID="{D0735217-E007-46F0-BD0C-4A81B1AD09A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,46 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2529456965	Player_Performance			\Default Work Unit\Player_Performance	
+
+Switch	ID	Name	Switch Group			Notes
+	206706158	SuperEstrella	Player_Performance			
+	1688859333	MuyMalo	Player_Performance			
+	2628937827	Regular	Player_Performance			
+	3111576180	Malo	Player_Performance			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2268021470	PUBLIC			\Default Work Unit\PUBLIC	
+	4121395077	MENUMUS			\Default Work Unit\MENUMUS	
+
+State	ID	Name	State Group			Notes
+	443572635	SAD	PUBLIC			
+	670611050	NEUTRAL	PUBLIC			
+	748895195	None	PUBLIC			
+	1427264549	HAPPY	PUBLIC			
+	748895195	None	MENUMUS			
+	2604644529	MENUA	MENUMUS			
+	2604644530	MENUB	MENUMUS			
+	3902133536	MENUEXIT	MENUMUS			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
