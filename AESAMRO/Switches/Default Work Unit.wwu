@@ -20,6 +20,12 @@
 						<Switch Name="Normal" ID="{5804B5CE-1BE4-4B5B-90B7-EF9C71064A21}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Reacciones_Juan" ID="{6F2D7772-73E9-4933-BE05-53B22441D23F}">
+					<ChildrenList>
+						<Switch Name="Happy" ID="{D35391A1-627D-48F7-8CAD-72A32D1D5D15}"/>
+						<Switch Name="Angry" ID="{4AD719A8-E99B-420E-AD7C-F436B8A83446}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

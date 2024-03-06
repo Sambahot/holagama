@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{704107FD-CA08-D92A-385B-413F427E7F1D}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3008099B-541B-AD32-680E-340874CE43F8}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -25,6 +25,7 @@
 				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
 				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
 				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="2513154369" Name="Performance"/>
 				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
 				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
 				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
@@ -52,12 +53,27 @@
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="219782030" Name="Reacciones_Juan">
+					<Switches>
+						<Switch Id="1206605712" Name="Angry"/>
+						<Switch Id="1427264549" Name="Happy"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="710929354" Name="Timings">
 					<Switches>
 						<Switch Id="384398350" Name="Missed"/>
 						<Switch Id="668632890" Name="Good"/>
 						<Switch Id="1668749454" Name="NM"/>
 						<Switch Id="2161557176" Name="Perfect"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2529456965" Name="Player_Performance">
+					<GameParameterRef Id="2513154369"/>
+					<Switches>
+						<Switch Id="206706158" Name="SuperEstrella"/>
+						<Switch Id="1688859333" Name="MuyMalo"/>
+						<Switch Id="2628937827" Name="Regular"/>
+						<Switch Id="3111576180" Name="Malo"/>
 					</Switches>
 				</SwitchGroup>
 				<SwitchGroup Id="3411673138" Name="Modificadores">
@@ -199,10 +215,14 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{B4671D0A-7DCC-AF64-409B-4FF53106438F}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{BB8F6CF7-D0B4-D228-C0C5-1E6EF77BEAF0}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
+				<File Id="667616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HAPPY_JUAN1.wav</ShortName>
+					<CachePath>SFX/HAPPY_JUAN1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="18032990" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GAME_REACTION2.wav</ShortName>
 					<CachePath>SFX/GAME_REACTION2_818F3B66.wem</CachePath>
@@ -211,18 +231,94 @@
 					<ShortName>GAME_REACTION1.wav</ShortName>
 					<CachePath>SFX/GAME_REACTION1_818F3B66.wem</CachePath>
 				</File>
+				<File Id="76625353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ANGRY_JUAN2.wav</ShortName>
+					<CachePath>SFX/ANGRY_JUAN2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="103687311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GTR_MISS4.wav</ShortName>
+					<CachePath>SFX/GTR_MISS4_818F3B66.wem</CachePath>
+				</File>
 				<File Id="181184555" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GAME_REACTION4.wav</ShortName>
 					<CachePath>SFX/GAME_REACTION4_818F3B66.wem</CachePath>
 				</File>
-				<File Id="695251641" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>GAME_REACTION3.wav</ShortName>
-					<CachePath>SFX/GAME_REACTION3_818F3B66.wem</CachePath>
+				<File Id="332801725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HAPPY_JUAN2.wav</ShortName>
+					<CachePath>SFX/HAPPY_JUAN2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="524764293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GTR_MISS3.wav</ShortName>
+					<CachePath>SFX/GTR_MISS3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="567236568" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HAPPY_JUAN3.wav</ShortName>
+					<CachePath>SFX/HAPPY_JUAN3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="619541150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HAPPY_JUAN5.wav</ShortName>
+					<CachePath>SFX/HAPPY_JUAN5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="671867802" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ANGRY_JUAN3.wav</ShortName>
+					<CachePath>SFX/ANGRY_JUAN3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="799872120" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GTR_MISS6.wav</ShortName>
+					<CachePath>SFX/GTR_MISS6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="894193548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GTR_MISS7.wav</ShortName>
+					<CachePath>SFX/GTR_MISS7_818F3B66.wem</CachePath>
+				</File>
+				<File Id="903853048" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GTR_MISS5.wav</ShortName>
+					<CachePath>SFX/GTR_MISS5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="936220741" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GTR_MISS1.wav</ShortName>
+					<CachePath>SFX/GTR_MISS1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="984385291" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GTR_MISS2.wav</ShortName>
+					<CachePath>SFX/GTR_MISS2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1043347230" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ANGRY_JUAN1.wav</ShortName>
+					<CachePath>SFX/ANGRY_JUAN1_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="482249566" Name="Play_Juan_Reaction" DurationType="OneShot" DurationMin="0.42133334" DurationMax="1.1146667">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="219782030" Id="1427264549"/>
+							<MediaRefs>
+								<MediaRef Id="667616"/>
+								<MediaRef Id="332801725"/>
+								<MediaRef Id="567236568"/>
+								<MediaRef Id="619541150"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="219782030" Id="1206605712"/>
+							<MediaRefs>
+								<MediaRef Id="76625353"/>
+								<MediaRef Id="671867802"/>
+								<MediaRef Id="1043347230"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2630541559" Name="Play_Missed_Notes" DurationType="OneShot" DurationMin="0.42866668" DurationMax="0.64">
+					<MediaRefs>
+						<MediaRef Id="799872120"/>
+						<MediaRef Id="936220741"/>
+						<MediaRef Id="984385291"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1384911199" Name="Play_Modificador" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="2922198603" Name="Play_Timings" DurationType="OneShot" DurationMin="0.8293333" DurationMax="1.208">
+				<Event Id="2922198603" Name="Play_Timings" DurationType="OneShot" DurationMin="0.2408125" DurationMax="1.208">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="710929354" Id="668632890"/>
@@ -233,7 +329,10 @@
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="710929354" Id="384398350"/>
 							<MediaRefs>
-								<MediaRef Id="695251641"/>
+								<MediaRef Id="103687311"/>
+								<MediaRef Id="524764293"/>
+								<MediaRef Id="894193548"/>
+								<MediaRef Id="903853048"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -252,6 +351,12 @@
 				</Event>
 			</Events>
 			<SwitchGroups>
+				<SwitchGroup Id="219782030" Name="Reacciones_Juan">
+					<Switches>
+						<Switch Id="1206605712" Name="Angry"/>
+						<Switch Id="1427264549" Name="Happy"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="710929354" Name="Timings">
 					<Switches>
 						<Switch Id="384398350" Name="Missed"/>
@@ -263,5 +368,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C7731E73-6406-A3D3-EC1B-74E5DCEAFB49}</FileHash>
+	<FileHash>{487C92EE-0823-844E-2C90-D7C0AA59ABFB}</FileHash>
 </SoundBanksInfo>

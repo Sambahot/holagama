@@ -1,3 +1,12 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2529456965	Player_Performance			\Default Work Unit\Player_Performance	
+
+Switch	ID	Name	Switch Group			Notes
+	206706158	SuperEstrella	Player_Performance			
+	1688859333	MuyMalo	Player_Performance			
+	2628937827	Regular	Player_Performance			
+	3111576180	Malo	Player_Performance			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	2268021470	PUBLIC			\Default Work Unit\PUBLIC	
 	4121395077	MENUMUS			\Default Work Unit\MENUMUS	
