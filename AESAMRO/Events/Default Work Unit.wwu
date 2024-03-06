@@ -3,7 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{ADC28592-D190-4B5F-B6A0-BBB6CA8E657D}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Menu_music" ID="{0AC08732-AAB0-4656-BC0E-A427133BA917}"/>
 				<Event Name="Play_Modificador" ID="{DB9D4EE8-C5BF-4C00-A500-97204EAB87A8}"/>
 				<Event Name="Play_Timings" ID="{5D0D326C-7E3C-430A-AAEF-4B8575624DB5}">
 					<ChildrenList>
